@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" a href="stylesheet.css">
+</head>
+<body>
+    <h1>REGISTRATION FROM</h1>
+    <h2>Please fill the form</h2>
+    <form method="post" id="layout">
+        <fieldset>
+            <label>Enter your First-Name:<input class="u-data" type="text" placeholder="first name"required></label><br>
+            <label>Enter your Last-Name:<input class="u-data" type="text"></label><br>
+            <label>Enter your Email:<input class="u-data" type="email"></label><br>
+            <label>Set new-password:<input class="u-data" type="password"></label><br>
+        </fieldset>
+        <fieldset> 
+            <label> <input type="radio" name="account-type" class="account-type"> Personal Account</label><br>
+            <label> <input type="radio" name="account-type" class="account-type"> Business Account</label><br>
+        </fieldset>
+        <fieldset>
+            </select>
+            <label>Enter Mobile No: <input type="number" class="last-details"></label><br>
+            <label>
+                <label> Select Folder Type:</label>
+                <select class="last-details">
+                    <option>Seletc one</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                </select>
+            </label>
+            <label>Upload folder: <input type="file" class="last-details"></label><br>
+            <label>Write bio:
+                <textarea rows="5" cols="8" class="last-details"></textarea>
+            </label>
+        </fieldset>
+        <button id="button">Submit</button>
+    </form>
+</body>
+</html>
